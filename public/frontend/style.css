@@ -1,0 +1,321 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Poppins;
+}
+
+.btn {
+    font-weight: 500;
+}
+
+
+/* Navbar */
+
+.navbar {
+    font-weight: 500;
+    background: white;
+}
+
+.nav-link {
+    margin-right: 90px;
+}
+
+.dropdown-item {
+    color: #ababab;
+    font-weight: 500;
+    font-size: small;
+}
+
+
+/* tutup navbar */
+
+
+/* HERO SECTION */
+
+.hero-section {
+    margin-top: 150px;
+}
+
+
+/* image thumbnails */
+
+.margin-thumbnails {
+    margin-top: 120px;
+}
+
+.image-thumbnails {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.image-quotes {
+    display: none;
+}
+
+.image-quotessub {
+    display: none;
+}
+
+
+/* Tutup thumbnails */
+
+
+/*Paragraph */
+
+.paragraph-quotes {
+    display: none;
+}
+
+.paragraph-quotes1 {
+    display: none;
+}
+
+.linkdetail {
+    display: none;
+}
+
+
+/* Tutup Paragrraph */
+
+
+/* Title */
+
+.title-thumbnails {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #1f1f1f;
+}
+
+
+/* Tutup title */
+
+
+/* Paragraph title */
+
+.paragraph-title {
+    font-size: 16px !important;
+    line-height: 30px;
+    text-align: justify;
+    color: #ABABAB;
+}
+
+
+/* Tutup Paragraph */
+
+
+/* TUTUP HERO SECTION */
+
+
+/* Berita Harian */
+
+.berita-bg {
+    margin-top: 20px;
+    background-image: linear-gradient(90deg, rgba(249,244,244,1) 0%, rgba(240,240,240,1) 48%, rgba(241,229,229,1) 100%);
+    background: cover;
+}
+
+.title-berita {
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.link-lainnya {
+    margin-top: autopx;
+    font-size: 14px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.image-thumbnailsberita {
+    max-height: 400px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+
+/* Tutup berita harian */
+
+
+/* Quotes Terkini */
+
+.subquotes-terkini {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.image-thumbnails-quotes {
+    width: 160px;
+    height: 140px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+.tanggal-quotes-terkini {
+    font-size: 10px;
+    line-height: 21px;
+    color: #acacac;
+}
+
+.title-quotes-terkini {
+    font-size: 14px;
+    line-height: 21px;
+    color: #1f1f1f;
+}
+
+.paragraph-quotes-terkini {
+    font-size: 12px;
+    line-height: 15px;
+    color: #ABABAB;
+}
+
+
+/* Tutup Quotes */
+
+
+/* Footer */
+
+.footerset {
+    margin-top: 130px;
+    font-weight: 500;
+}
+
+.footer-bg {
+    margin-top: 20px;
+    background-image: linear-gradient( 183.5deg, rgba(244, 173, 6, 1) 18.6%, rgba(229, 251, 31, 1) 119.9%);
+    background: cover;
+}
+
+.footer-link a {
+    color: #1f1f1f;
+    line-height: 40px;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+
+.footer-link a:hover {
+    color: #0057a6;
+}
+
+.paragraph-footer {
+    color: #1f1f1f;
+    font-size: 14px;
+}
+
+.footer-alt {
+    color: #1f1f1f;
+}
+
+.textset {
+    color: #050B44;
+}
+
+
+/* Akhir Footer */
+
+
+/* Dekstop */
+
+@media (min-width: 992px) {
+    /* Header */
+    .image-quotes {
+        margin-top: 50px;
+        border-radius: 10px;
+        display: grid;
+    }
+    .image-quotessub {
+        margin-top: 60px;
+        display: grid;
+    }
+    .paragraph-quotes {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 50px;
+        display: grid;
+    }
+    .paragraph-quotes1 {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 140px;
+        margin-bottom: 20px;
+        display: grid;
+    }
+    .linkdetail {
+        text-decoration-line: underline;
+        color: #1f1f1f;
+        display: grid;
+    }
+    /*Tutup Header*/
+    /* Berita Harian */
+    .title-berita {
+        margin-top: 50px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .link-lainnya {
+        margin-top: 50px;
+        font-size: 14px;
+        line-height: 27px;
+        color: #E5E5E5;
+    }
+    .image-thumbnailsberita {
+        max-height: 360px;
+        width: 540px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    /* Tutup berita harian */
+    /* Quotes Terkini */
+    .subquotes-terkini {
+        margin-top: 70px;
+        text-align: unset;
+    }
+    .image-thumbnails-quotes {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 70px;
+        margin-top: 0px;
+    }
+    .tanggal-quotes-terkini {
+        font-size: 10px;
+        line-height: 21px;
+        color: #acacac;
+    }
+    .title-quotes-terkini {
+        font-size: 14px;
+        line-height: 21px;
+        color: #1f1f1f;
+    }
+    .paragraph-quotes-terkini {
+        font-size: 12px;
+        line-height: 15px;
+        color: #ABABAB;
+    }
+    /* Tutup Quotes */
+    /* Footer */
+    .footerset {
+        margin-top: 90px;
+        font-weight: 500;
+    }
+    /* Tutup Footer */
+}

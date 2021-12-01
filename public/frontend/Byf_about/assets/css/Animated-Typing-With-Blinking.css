@@ -1,0 +1,97 @@
+.btn {
+    font-weight: 500;
+}
+
+.navbar {
+    font-weight: 500;
+    background: white;
+}
+
+.nav-link {
+    margin-right: 90px;
+}
+
+.dropdown-item {
+    color: #ababab;
+    font-weight: 500;
+    font-size: small;
+}
+
+.text-blink {
+    margin-top: 130px;
+}
+
+.blinking {
+    font-size: 70px;
+    animation: blinkingText 1.2s infinite;
+}
+
+.cd-words-wrapper {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 60px;
+}
+
+.cd-words-wrapper b {
+    display: inline-block;
+    position: absolute;
+    white-space: nowrap;
+    left: 0;
+    top: 0;
+}
+
+.blc {
+    font-size: 60px;
+    text-align: center;
+}
+
+.cd-words-wrapper b.is-visible {
+    position: relative;
+}
+
+.cd-headline.clip span {
+    display: inline-block;
+    padding: .2em 0;
+}
+
+.cd-headline.clip .cd-words-wrapper {
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.cd-headline.clip b {
+    opacity: 0;
+}
+
+.cd-headline b.is-visible {
+    opacity: 1;
+    font-weight: 900;
+}
+
+.is-visible,
+.blc {
+    color: gery;
+}
+
+.animated-text {
+    transform: scale(0.5);
+}
+
+@media (min-width: 768px) {
+    .animated-text {
+        transform: scale(1.2);
+    }
+}
+
+@media (max-width: 576px) {
+    .animated-text {
+        transform: scale(0.3);
+        white-space: nowrap;
+    }
+}
+
+.noSelect {
+    pointer-events: none;
+}

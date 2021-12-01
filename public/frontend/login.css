@@ -1,0 +1,24 @@
+.konten {
+    margin-top: 200px;
+}
+
+
+/* Navbar */
+
+.navbar {
+    font-weight: 500;
+    background: white;
+}
+
+.nav-link {
+    margin-right: 90px;
+}
+
+.dropdown-item {
+    color: #ababab;
+    font-weight: 500;
+    font-size: small;
+}
+
+
+/* tutup navbar */
